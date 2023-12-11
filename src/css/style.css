@@ -1,0 +1,210 @@
+html, body {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'comic sans ms';
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/fon.webp') center/cover no-repeat;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    padding-top: 40px;
+}
+
+.header__text {
+    width: 100%;
+}
+
+.start-btn {
+    font-size: 30px;
+    font-family: inherit;
+    border: none;
+    border-radius: 20px;
+    background-color: #90ee90;
+    padding: 10px;
+}
+
+.preface {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.preface__text-box {
+    width: 100%;
+    height: 53%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.youname-box {
+    margin-top: 10px;
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.youname {
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: lightgrey;
+
+    font-family: 'inherit';
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+}
+
+.youname:focus {
+    outline: none;
+}
+
+.enter-youname {
+    width: 20%;
+    height: 40px;
+
+    background: rgb(125, 230, 125) url('../images/enter-you-name.png') center/cover no-repeat;
+}
+
+.avtor-box {
+    width: 75%;
+    height: 47%;
+    display: flex;
+    justify-content: center;
+}
+
+.avtor {
+    width: 100%;
+}
+
+.game {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-and-score {
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.gameField {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameField__item {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    background-color: lightcyan;
+}
+
+.igor-step-1 {
+    width: 100%;
+    height: 100%;
+    background: url('../images/step-1.png') center/70% no-repeat;
+}
+
+.igor-step-2 {
+    width: 100%;
+    height: 100%;
+    background: url('../images/step-2.png') center/70% no-repeat;
+}
+
+.igor-step-3 {
+    width: 100%;
+    height: 100%;
+    background: url('../images/step-3.png') center/70% no-repeat;
+}
+
+.igor-step-4 {
+    width: 100%;
+    height: 100%;
+    background: url('../images/step-4.png') center/70% no-repeat;
+}
+
+.igor-help {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    width: 100%;
+    height: 100%;
+
+    background: url('../images/fon.webp') center/cover no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.igor-help__text-box {
+    width: 100%;
+    height: 45%;
+
+    display: flex;
+    align-items: flex-end;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
+.igor-help__box {
+    display: flex;
+    justify-content: center;
+}
+
+.igor-help__img {
+    width: 60%;
+}
+
+.hidden {
+    display: none;
+}
